@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    transition: 0.5 ease;
+}
+
+header .brand{
+    color: rgb(91, 3, 3);
+    font-size:1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+section{
+    padding: 100px 20px;
+}
+
+.home{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #BCED68;
+}
+
+.home p{
+    margin-top: 15px;
+    color: rgb(71, 30, 0);
+}
+
+.home.image-slide{
+    width: 300px;
+    height: 200px;
+    object-position: 50% 50%;
+    object-fit: none;
+}
+
+.home .content{
+    z-index: 888;
+    color:rgb(56, 32, 1);
+    width: 70%;
+    margin-left: 60px;
+    margin-top: 30px;
+    display: flex;
+}
+
+.home .content p {
+    font-size: 23px;
+    color: rgb(56, 32, 1);
+}
+
+
+.home .content .img-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 100%;
+}
+
+.home .content .abt1{
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.home .content .abt2{
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.home .content .abt3{
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.home .content .abt4{
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.home .content .abt5{
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.home .content .abt6{
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.home .content .img-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%
+}
+
