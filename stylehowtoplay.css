@@ -42,52 +42,15 @@ section{
     background: #BCED68;
 }
 
-.home .content {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+.home a{
+    background: #fff;
+    padding: 15px 35px;
+    color: #000;
+    font-size:1.1em;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 2px;
 }
-
-.home .content h1 {
-    text-align: left;
-    margin-top: 25px;
-    margin-bottom: 10px;
-    font-weight: bold;
-    width: 100%;
-    color: rgb(56, 32, 1);
-}
-
-.home .content p {
-    text-align: justify;
-    text-justify: inter-word;
-    margin-bottom: 8px;
-    width: 100%;
-    color: rgb(56, 32, 1);
-}
-
-.home .content ul{
-    margin-right: 5px;
-}
-
-.content-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 5px;
-    overflow-x: auto;
-}
-
-.content-table td {
-    padding: 4px 8px;
-    text-align: left;
-    vertical-align: top;
-    border: none;
-}
-
-/* Opsional: tambahkan garis pemisah */
-.content-table tr {
-    border-bottom: 1px solid rgb(56, 32, 1);
-}
-
-.content-table tr:last-child {
-    border-bottom: none;
+.home p{
+    margin-top: 10px;
 }
